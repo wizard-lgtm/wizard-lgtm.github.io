@@ -108,7 +108,23 @@
       <li>The life of John Smith and Jesus</li>
     </ul>
   </div>
-
+  <div style="width: 50%">
+    <h1>Please KOntankt!</h1>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" name="name" />
+    </div>
+    <br />
+    <div>
+      <label for="message">Email:</label>
+      <input type="text" name="email" />
+    </div>
+    <br />
+    <div>
+      <label for="message">Message:</label>
+      <textarea cols="40" rows="10"></textarea>
+    </div>
+  </div>
   <footer>
     <center>
       <a href="https://github.com/wizard-lgtm/">source. </a>
