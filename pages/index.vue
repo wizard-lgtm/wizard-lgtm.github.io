@@ -7,6 +7,7 @@
     alt="logo"
     width="800"
     height="300"
+    class="responsive-img"
   />
 
   <h1>Welcome to Wizard's bunker</h1>
@@ -23,6 +24,7 @@
     alt="videothumbnail"
     width="500"
     height="300"
+    class="responsive-img"
   />
   <h3>Known technologies as well:</h3>
   <ul>
@@ -158,6 +160,11 @@ a {
     -webkit-transform: translateY(100%);
   }
 }
+.responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 800px; /* Optional: Set a max width */
+}
 
 @keyframes my-animation {
   from {
@@ -172,3 +179,16 @@ a {
   }
 }
 </style>
+
+<script setup lang="ts">
+import { Neko, NekoSizeVariations } from "neko-ts";
+
+onMounted(() => {
+  let neko: Neko | null = null;
+
+  document.addEventListener("DOMContentLoaded", () => {
+    console.log("test porn");
+    neko = new Neko();
+  });
+});
+</script>
