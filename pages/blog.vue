@@ -1,8 +1,10 @@
 <template>
-  <h1>Holy, DID YOU REALLY ENTER HERE?</h1>
-  <b>i didn't create the page</b>
-  <br />
-  <b>i'm still thinking about you really entered here, i'm so happy rn </b>
+  <ul>
+    <li> <i><a href="/blog-1">blog-1</a></i> </li>
+    <li> <i><a href="/blog-2">blog-2</a></i> </li>
+    <li> <i><a href="/blog-3">blog-3</a></i> </li>
+    <li> <i><a href="/blog-4">blog-4</a></i> </li>
+  </ul>
 </template>
 <style>
 body {
