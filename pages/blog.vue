@@ -4,6 +4,7 @@
     <li> <i><a href="/blog-2">blog-2</a></i> </li>
     <li> <i><a href="/blog-3">blog-3</a></i> </li>
     <li> <i><a href="/blog-4">blog-4</a></i> </li>
+    <li> <i><a href="/blog-5">blog-5</a></i> </li>
   </ul>
 </template>
 <style>
